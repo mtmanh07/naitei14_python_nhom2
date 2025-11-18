@@ -5,4 +5,5 @@ app_name = "library_management"
 
 urlpatterns = [
     path("", views.home, name="home"),
+    path("dashboard/", views.admin_dashboard, name="admin_dashboard"),
 ]
